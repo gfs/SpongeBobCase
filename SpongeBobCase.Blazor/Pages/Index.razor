@@ -17,7 +17,7 @@
     protected override async Task OnParametersSetAsync()
     {
         var dimension = await JsRuntime.InvokeAsync<WindowDimension>("getWindowDimensions");
-        maxLengthOfLine = dimension.Width < 850 ? 50 : 100;
+        maxLengthOfLine = dimension.Width < 850 ? dimension.Width < 400 ? 30 : 50 : 100;
 
         var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
         if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Say", out var say))
