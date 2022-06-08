@@ -1,6 +1,8 @@
 ﻿@page "/"
 @using SpongeBobCase.Extensions
 @using System.Text
+@inject NavigationManager NavManager
+@using Microsoft.AspNetCore.WebUtilities
 
  <div class="form-group">
      <input class="form-control input-lg" type="text" @bind="@input" @bind:event="oninput" placeholder="@placeholder"/>
@@ -11,9 +13,23 @@
 </pre>
 
 @code{
-    const int maxLengthOfLine = 100;
+    protected override void OnParametersSet()
+    {
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Say", out var say))
+        {
+            input = say;
+        }
+        else
+        {
+            input = placeholder;
+        }
+        base.OnParametersSet();
+    }
+
+        const int maxLengthOfLine = 100;
     const string placeholder = "Enter text to convert.";
-    string input = placeholder;
+    string input = string.Empty;
     string output => asciiBob.Replace("MESSAGEBOX", asciiMessageBoxify(input.ToSpongeBobCase()));
 
     string asciiMessageBoxify(string stringToBox)
