@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpongeBobCase.Extensions", "SpongeBobCase.Extensions\SpongeBobCase.Extensions.csproj", "{38D4C0CC-F46C-4391-82CC-615E063AE496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpongeBobCase.Extensions.Tests", "SpongeBobCase.Extensions.Tests\SpongeBobCase.Extensions.Tests.csproj", "{EB6D5B8E-50BA-41E3-8053-CA8F8C975496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpongeBobCase.Blazor", "SpongeBobCase.Blazor\SpongeBobCase.Blazor.csproj", "{6F422E36-0031-43B8-BFC7-D8FC5C0121FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D4C0CC-F46C-4391-82CC-615E063AE496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D4C0CC-F46C-4391-82CC-615E063AE496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D4C0CC-F46C-4391-82CC-615E063AE496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D4C0CC-F46C-4391-82CC-615E063AE496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6D5B8E-50BA-41E3-8053-CA8F8C975496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6D5B8E-50BA-41E3-8053-CA8F8C975496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6D5B8E-50BA-41E3-8053-CA8F8C975496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6D5B8E-50BA-41E3-8053-CA8F8C975496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F422E36-0031-43B8-BFC7-D8FC5C0121FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F422E36-0031-43B8-BFC7-D8FC5C0121FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F422E36-0031-43B8-BFC7-D8FC5C0121FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F422E36-0031-43B8-BFC7-D8FC5C0121FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
