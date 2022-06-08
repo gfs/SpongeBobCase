@@ -1,5 +1,5 @@
 # SpongeBob Case
-This project hosts C# String Extension Methods to convert strings to [SpongeBob Sarcasm Case](https://knowyourmeme.com/memes/mocking-spongebob).
+This project hosts C# String Extension Methods to convert strings to [SpongeBob Sarcasm Case](https://knowyourmeme.com/memes/mocking-spongebob) and a [Blazor WebAssembly app](https://gfs.github.io/SpongeBobCase/) to convert strings in your browser.
 
 # License
 MIT.
