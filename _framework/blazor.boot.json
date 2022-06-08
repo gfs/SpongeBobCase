@@ -24,7 +24,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-lGzGmghWC2n88jfdnt\/ZlgOBbU9tjhYhdRO8P4zXTXo=",
       "Microsoft.Net.Http.Headers.dll": "sha256-P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=",
       "netstandard.dll": "sha256-4gmBJE8k12DTRn9FcOyPaa5s0IyIbXrcmHTiiEEoZEI=",
-      "SpongeBobCase.Blazor.dll": "sha256-ah2G6KnGLkoTTq0QxosZCqaJDpkotvZYsg4NylAODBY=",
+      "SpongeBobCase.Blazor.dll": "sha256-gNMveZpLVs48e0OZ5Ua1KT2LoSG5qh0PgHO4wVj6zwQ=",
       "SpongeBobCase.Extensions.dll": "sha256-SxIA+3533RUep1cmNm4siras1skYvngEc2JfAjWVOOA=",
       "System.Buffers.dll": "sha256-WDgcaUbBz5uavvGK8utWdhV5TwHfqExTpMXU6tJizEE=",
       "System.Collections.Concurrent.dll": "sha256-ey1fXKVoxv3pcSNC0LmtDEV+G9M1ZPb7UVKm6lLG1qw=",
@@ -49,7 +49,7 @@
     "runtime": {
       "dotnet.6.0.5.oglegr95ax.js": "sha256-AuFozgNjR9bug5JhL+U2qnoJ3KiV19nkSitSDu3KE8U=",
       "dotnet.timezones.blat": "sha256-vRU6+wGzQ3FJ0JtyPJtipblPe9MvJf+qKY20xZhuyKQ=",
-      "dotnet.wasm": "sha256-lcKqJyI5R0F7WvX9qLgHVg88mLd\/SUTdJcZ0OKSWNh8=",
+      "dotnet.wasm": "sha256-RvJt2qnC5xgvFmspKwOyT2\/SL580pjy33DhP6FCYHwY=",
       "icudt_CJK.dat": "sha256-WPyI4hWDPnOw62Nr27FkzGjdbucZnQD+Ph+GOPhAedw=",
       "icudt_EFIGS.dat": "sha256-4RwaPx87Z4dvn77ie\/ro3\/QzyS+\/gGmO3Y\/0CSAXw4k=",
       "icudt_no_CJK.dat": "sha256-OxylFgLJlFqixsj+nLxYVsv5iZLvfIKMpLf9hrWaChA=",
