@@ -1,0 +1,26 @@
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<input type="text" id="theNormalText"/>
+<br/>
+<button id="copyToClipboardButton">
+Copy result to to clipboard
+</button>
+<div id="theOutput">Enter your text to convert</div>
+
+<input type="text" id="copyableOutput"/>
+
+<script type="text/javascript">
+    $("#theNormalText").on('change keydown paste input', function () {
+        UpdateAsciiBob();
+    });
+
+    $("#copyToClipboardButton").on('click', function () {
+        copyToClipboard();
+    });
+
+    $('#copyToClipboardButton').hide();
+</script>
