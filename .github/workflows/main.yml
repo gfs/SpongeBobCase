@@ -33,7 +33,8 @@ jobs:
       - uses: jorelali/setup-elm@v3
         with:
           elm-version: 0.19.1
-      - run: elm make SpongeBobCase.Elm/src/Main.elm --output toPublish/elm/index.html
+      - run: cd SpongeBobCase.Elm
+      - run: elm make ./src/Main.elm --output ../toPublish/elm/index.html
 
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3
