@@ -28,6 +28,12 @@ jobs:
         run: mkdir toPublish/JS
       - name: Move Javascript OutPut into place
         run: cp SpongeBobCase.Js/* toPublish/JS/
+      - name: Make elm Dir
+        run: mkdir toPublish/elm
+      - uses: jorelali/setup-elm@v3
+        with:
+          elm-version: 0.19.1
+      - run: elm make SpongeBobCase.Elm/src/Main.elm --output toPublish/elm/index.html
 
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3
